@@ -1,110 +1,110 @@
     /* Alignment options */
-.internal-embed.image-embed[alt*="right"] {
+[alt*="right"] {
     text-align: right;
 }
 
-.internal-embed.image-embed[alt*="center"] {
+[alt*="center"] {
     text-align: center;
 }
 
-.internal-embed.image-embed[alt*="left"] {
+[alt*="left"] {
     text-align: left;
 }
 
-.internal-embed.image-embed[alt*="absolute"] {
+[alt*="absolute"] {
     position: absolute;
 }
 
 /* Size options */
-.internal-embed.image-embed[alt*="small"] img {
+[alt*="small"] img {
     max-height: 200px;
     width: auto;
 }
 
-.internal-embed.image-embed[alt*="medium"] img {
+[alt*="medium"] img {
     max-height: 400px;
     width: auto;
 }
 
-.internal-embed.image-embed[alt*="large"] img {
+[alt*="large"] img {
     max-height: 600px;
     width: auto;
 }
 
-.internal-embed.image-embed[alt*="full"] img {
+[alt*="full"] img {
     width: 100%;
     height: auto;
 }
 
 /* Border and styling options */
-.internal-embed.image-embed[alt*="border"] img {
+[alt*="border"] img {
     border: 2px solid var(--background-modifier-border);
     border-radius: 8px;
     padding: 4px;
 }
 
-.internal-embed.image-embed[alt*="shadow"] img {
+[alt*="shadow"] img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
 
-.internal-embed.image-embed[alt*="rounded"] img {
+[alt*="rounded"] img {
     border-radius: 12px;
 }
 
-.internal-embed.image-embed[alt*="circle"] img {
+[alt*="circle"] img {
     border-radius: 50%;
     aspect-ratio: 1;
     object-fit: cover;
 }
 
 /* Float options */
-.internal-embed.image-embed[alt*="float-left"] {
+[alt*="float-left"] {
     float: left;
     margin: 0 16px 16px 0;
     max-width: 300px;
 }
 
-.internal-embed.image-embed[alt*="float-right"] {
+[alt*="float-right"] {
     float: right;
     margin: 0 0 16px 16px;
     max-width: 300px;
 }
 
 /* Special effects */
-.internal-embed.image-embed[alt*="grayscale"] img {
+[alt*="grayscale"] img {
     filter: grayscale(100%);
 }
 
-.internal-embed.image-embed[alt*="sepia"] img {
+[alt*="sepia"] img {
     filter: sepia(100%);
 }
 
-.internal-embed.image-embed[alt*="blur"] img {
+[alt*="blur"] img {
     filter: blur(2px);
 }
 
-.internal-embed.image-embed[alt*="invert"] img {
+[alt*="invert"] img {
     filter: invert(1);
 }
 
 /* Layout options */
-.internal-embed.image-embed[alt*="block"] {
+[alt*="block"] {
     display: block;
     margin: 16px auto;
 }
 
-.internal-embed.image-embed[alt*="inline"] img {
+[alt*="inline"] img {
     display: inline-block;
     vertical-align: text-bottom;
     margin: 0 0.15em;
 }
 
 /* Opacity options */
-.internal-embed.image-embed[alt*="fade"] img {
+[alt*="fade"] img {
     opacity: 0.7;
 }
 
-.internal-embed.image-embed[alt*="transparent"] img {
+[alt*="transparent"] img {
     opacity: 0.5;
 }
