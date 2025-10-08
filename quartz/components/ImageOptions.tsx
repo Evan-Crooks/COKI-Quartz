@@ -4,7 +4,7 @@ import { QuartzComponentConstructor } from "./types"
 
 export default (() => {
   function ImageOptions() {
-    return <p>Example Component</p>
+    return <span style="display: none;"></span>
   }
  
   ImageOptions.css = styles
